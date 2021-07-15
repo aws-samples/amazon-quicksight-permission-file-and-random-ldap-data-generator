@@ -1,0 +1,201 @@
+,Employee_id,Manager_id,name,dob,dept
+0,0,,"Wei, Darth",1973-06-01,
+1,1,0,"Wolf, Erin",1996-05-10,Asset Management
+2,2,0,"Sarkar, SofÃ­a",1981-03-03,Engineering
+3,3,1,"Owusu, SofÃ­a",1954-04-09,Recruiting
+4,4,0,"Rosalez, Carole",1972-12-24,Designer
+5,5,1,"Rodriguez, Zhang",1998-01-29,Designer
+6,6,1,"Jayashankar, Yves",1972-08-25,Health and Wellness
+7,7,2,"Jackson, Victor",1955-08-23,Designer
+8,8,2,"Oliveira, Zhang",1965-10-27,Ethics & Compliance
+9,9,5,"Mensah, Kwaku",1968-07-20,Product Manager
+10,10,3,"Santos, Arnav",1981-08-01,Human Relations
+11,11,7,"Stiles, Mallet",1994-09-02,Human Resources
+12,12,10,"Manu, Trent",1962-05-28,Designer
+13,13,7,"Salazar, Liu",1975-02-17,Facilities Management
+14,14,12,"Manu, Wang",1962-05-29,Human Relations
+15,15,11,"Mansa, Kwesi",1996-05-15,Fleet Management
+16,16,2,"Juan, Nikki",1977-01-06,Engineering
+17,17,2,"Major, Zhang",1962-04-04,System Architects
+18,18,4,"Jayashankar, Ted",1972-02-29,Health and Wellness
+19,19,13,"Santos, Victor",1966-02-09,Ethics & Compliance
+20,20,14,"Jie, Li",1968-06-01,Engineering
+21,21,6,"Jie, Merlin",1960-08-26,Recruiting
+22,22,0,"Ramirez, Victor",1977-07-01,Recruiting
+23,23,7,"Roe, Nikki",1959-04-16,Asset Management
+24,24,1,"Silva, Victor",1991-08-08,Human Relations
+25,25,0,"Jie, Faythe",1991-10-03,Administration
+26,26,20,"Roe, Akua",1967-04-05,Fleet Management
+27,27,1,"Wei, Craig",1962-01-17,Fleet Management
+28,28,25,"Mansa, MarÃ­a",1967-09-13,Finance
+29,29,4,"Juan, Shirley",1985-01-29,Human Relations
+30,30,1,"Doe, Richard",1964-11-23,Fleet Management
+31,31,12,"Rodriguez, Li",1967-02-01,Human Relations
+32,32,24,"Mansa, Akua",1973-01-06,Information Technology
+33,33,11,"Jackson, Trent",1965-04-11,Tech Support
+34,34,10,"Desai, Merlin",1987-09-21,Ethics & Compliance
+35,35,16,"Silva, John",1978-10-22,Designer
+36,36,17,"Major, Saanvi",1989-01-19,Facilities Management
+37,37,31,"Roe, John",1982-07-16,System Architects
+38,38,28,"Santos, Heidi",1995-10-11,Fleet Management
+39,39,21,"Stiles, Mallet",2000-04-22,Designer
+40,40,6,"Jie, David",1984-07-29,Fleet Management
+41,41,35,"Jayashankar, Arnav",1961-02-05,Fleet Management
+42,42,7,"Rodriguez, Victor",1965-11-30,Fleet Management
+43,43,10,"Desai, Sybil",1977-02-02,Finance
+44,44,20,"Wolf, Dave ",1964-04-30,Information Technology
+45,45,10,"Jie, Alejandro",1956-12-28,Health and Wellness
+46,46,1,"Owusu, Erin",1972-12-15,Recruiting
+47,47,38,"Doe, Jane",1975-03-11,Asset Management
+48,48,5,"Juan, Arnav",1953-10-29,Human Resources
+49,49,6,"Xiulan, Jane",1980-09-27,Engineering
+50,50,16,"Wei, MÃ¡rcia",1999-04-29,Information Technology
+51,51,39,"Jie, Trudy",1953-04-04,Health and Wellness
+52,52,48,"Stiles, Jane",1981-12-19,Health and Wellness
+53,53,24,"MartÃ­nez, SofÃ­a",1988-10-05,Product Manager
+54,54,48,"Manu, Carlos",1963-09-09,Fleet Management
+55,55,14,"Santos, Martha",1975-05-31,Environmental Services
+56,56,45,"Major, John",1966-06-04,Engineering
+57,57,3,"Doe, Peggy ",1988-12-29,Asset Management
+58,58,8,"Major, Wang",1981-02-03,Administration
+59,59,1,"Jayashankar, Mike",1991-06-30,Administration
+60,60,44,"Mensah, Kwesi",1992-10-01,Sales
+61,61,37,"Rivera, Dan",1955-06-09,Recruiting
+62,62,6,"Wolf, Mateo",1955-02-08,Information Technology
+63,63,18,"Santos, Ivan",1975-10-24,Human Resources
+64,64,32,"GarcÃ­a, Dan",1975-11-27,Tech Support
+65,65,57,"Desai, Victor",1997-11-08,Recruiting
+66,66,15,"Xiulan, Carole",1963-11-30,Product Manager
+67,67,25,"Doe, Kwaku",1988-02-09,Human Relations
+68,68,66,"Ramirez, Darth",1962-07-19,Administration
+69,69,32,"Doe, Richard",1990-11-24,Internal Audit
+70,70,63,"Souza, Wendy",1968-12-02,Human Relations
+71,71,47,"Stiles, Alejandro",1962-01-01,Human Relations
+72,72,54,"Juan, Trent ",1981-12-26,Human Relations
+73,73,28,"Doe, Niaj",1963-11-07,Human Relations
+74,74,71,"GarcÃ­a, SofÃ­a",1959-12-21,Finance
+75,75,5,"Roe, Akua",1979-04-11,Ethics & Compliance
+76,76,45,"Juan, SofÃ­a",1971-08-06,Internal Audit
+77,77,17,"GarcÃ­a, Jorge",1988-08-02,Human Resources
+78,78,25,"Souza, Richard",1965-02-23,System Architects
+79,79,48,"Oliveira, Yves",1973-12-23,Information Technology
+80,80,2,"Doe, Paulo",1973-07-23,Asset Management
+81,81,4,"Doe, Sybil",1992-01-08,Asset Management
+82,82,62,"Roe, Carlos",1991-02-27,Designer
+83,83,32,"Oliveira, David",1989-11-01,Ethics & Compliance
+84,84,29,"MartÃ­nez, Ted",1958-05-02,Designer
+85,85,19,"Roe, Niaj",1970-09-06,Tech Support
+86,86,24,"Juan, Trent",1953-04-15,Product Manager
+87,87,23,"Ramirez, Charlie",1968-02-17,Facilities Management
+88,88,4,"Manu, Vanna",1993-11-12,Sales
+89,89,28,"Mensah, Kwesi",1966-06-30,Tech Support
+90,90,50,"Doe, Carole",1993-07-16,Fleet Management
+91,91,67,"Doe, Peggy",1986-10-19,Facilities Management
+92,92,69,"Wei, Jorge",1964-03-31,Tech Support
+93,93,58,"Major, Jane",1994-01-06,Finance
+94,94,21,"Roe, Merlin",1983-08-05,Sales
+95,95,4,"Oliveira, Peggy",1963-02-05,Tech Support
+96,96,62,"Mansa, Ivan",1966-09-22,System Architects
+97,97,9,"Ramirez, David",1986-05-07,System Architects
+98,98,67,"Jie, Dan",1998-05-17,Product Manager
+99,99,67,"Jayashankar, Kwaku",1988-10-13,Tech Support
+100,100,2,"MartÃ­nez, MÃ¡rcia",1972-09-03,Finance
+101,101,81,"Santos, Arnav",1954-11-15,Finance
+102,102,70,"Jackson, Faythe",1969-12-09,Internal Audit
+103,103,59,"Xiulan, Erin",1966-01-04,Environmental Services
+104,104,3,"Major, Victor",1991-02-21,Internal Audit
+105,105,90,"Roe, Zhang",2000-04-10,Fleet Management
+106,106,51,"Salazar, Mary",1995-04-12,Product Manager
+107,107,80,"Jayashankar, Charlie",1987-06-12,Finance
+108,108,45,"Desai, Michael ",1993-04-15,Asset Management
+109,109,9,"Jayashankar, David",1972-09-01,Human Resources
+110,110,82,"Roe, Paul ",1968-04-26,Tech Support
+111,111,90,"Roe, Efua",1998-07-15,Recruiting
+112,112,101,"Stiles, Niaj",1985-11-28,Human Relations
+113,113,23,"Jackson, Akua",1953-10-25,Sales
+114,114,48,"Roe, Saanvi",1961-09-02,Environmental Services
+115,115,63,"Xiulan, SofÃ­a",1967-12-12,Human Resources
+116,116,58,"Mansa, Arthur",1966-05-08,Health and Wellness
+117,117,0,"Desai, Victor",1999-09-22,Information Technology
+118,118,106,"Xiulan, David",1961-11-24,System Architects
+119,119,44,"Mensah, Saanvi",1977-05-31,Engineering
+120,120,92,"Rivera, Efua",1955-04-18,Recruiting
+121,121,112,"Rosalez, Walter",1974-01-18,Facilities Management
+122,122,35,"Desai, Erin",1999-05-17,Administration
+123,123,36,"Stiles, Bertha",1971-11-01,Recruiting
+124,124,63,"Wolf, Jorge",1964-05-29,Environmental Services
+125,125,12,"Ramirez, MarÃ­a",1965-10-22,Asset Management
+126,126,46,"Ramirez, David",1974-03-18,Human Relations
+127,127,115,"Juan, Peggy",1954-07-27,Finance
+128,128,23,"Desai, Li",1969-02-12,Asset Management
+129,129,104,"Mensah, SofÃ­a",1987-09-07,Product Manager
+130,130,13,"Jie, Chuck",2000-06-21,Asset Management
+131,131,65,"Sarkar, Mike",1954-03-31,Asset Management
+132,132,120,"Stiles, Yves",1957-02-27,Fleet Management
+133,133,49,"Rodriguez, Carlos ",1978-01-18,Product Manager
+134,134,7,"Rodriguez, Mary",1973-02-27,Administration
+135,135,131,"Sarkar, Ted",1996-03-28,Fleet Management
+136,136,119,"Ramirez, Kwesi",1975-11-06,Asset Management
+137,137,113,"Rivera, Craig",1976-03-02,Administration
+138,138,107,"Mansa, MarÃ­a",1990-12-05,Human Relations
+139,139,13,"MartÃ­nez, Grace",1989-02-24,Information Technology
+140,140,38,"Manu, Nikki",1982-05-26,Human Relations
+141,141,86,"GarcÃ­a, David",1958-09-18,System Architects
+142,142,134,"Mensah, Oscar",1988-11-16,Human Relations
+143,143,139,"Santos, SofÃ­a",1975-06-22,System Architects
+144,144,15,"Xiulan, Carole",1986-12-13,Ethics & Compliance
+145,145,63,"Ramirez, Darth",1983-06-25,System Architects
+146,146,143,"Santos, Mike",1960-02-17,System Architects
+147,147,8,"Mansa, Akua",1971-01-08,Facilities Management
+148,148,54,"Xiulan, Kwaku",1983-12-24,Environmental Services
+149,149,113,"Rosalez, Kwesi",1983-04-01,Health and Wellness
+150,150,54,"Souza, Bertha",1961-07-30,Information Technology
+151,151,128,"Wolf, Judy",1962-01-04,Internal Audit
+152,152,142,"Jayashankar, Oscar",1976-07-13,Fleet Management
+153,153,15,"Rivera, Martha",1971-09-15,Engineering
+154,154,114,"Jie, Frank",1958-05-30,Health and Wellness
+155,155,57,"MartÃ­nez, Akua",1980-10-01,Fleet Management
+156,156,138,"Wolf, Darth",1967-05-15,Engineering
+157,157,41,"Roe, Bertha",1995-02-13,Recruiting
+158,158,63,"Sarkar, Alejandro",1978-02-01,Sales
+159,159,106,"GarcÃ­a, Michael ",1974-09-11,Designer
+160,160,140,"Jie, Paul ",1983-10-01,Finance
+161,161,88,"Ramirez, Grace",1990-07-13,Internal Audit
+162,162,121,"Jie, Li",1953-11-16,Tech Support
+163,163,102,"Rodriguez, Jane",1965-07-03,Product Manager
+164,164,69,"Major, Eve",2000-06-24,Recruiting
+165,165,134,"Manu, Arnav",1998-02-18,Human Resources
+166,166,24,"Salazar, Martha",1992-03-13,Information Technology
+167,167,89,"Desai, Arthur",1958-10-31,Finance
+168,168,22,"Rivera, Zhang",1957-05-20,Tech Support
+169,169,4,"Silva, Carol",1964-03-04,System Architects
+170,170,83,"Juan, Ana",1979-09-08,System Architects
+171,171,134,"Wei, Michael ",2000-04-02,Environmental Services
+172,172,118,"GarcÃ­a, SofÃ­a",1955-02-14,Tech Support
+173,173,139,"Xiulan, Grace",1994-08-20,Product Manager
+174,174,26,"Major, Frank",1980-03-10,Fleet Management
+175,175,61,"Wolf, Chuck",1983-03-17,System Architects
+176,176,140,"Jie, Akua",1970-09-15,Ethics & Compliance
+177,177,61,"Rosalez, Rupert",1959-06-26,Product Manager
+178,178,52,"Manu, Pat",1997-09-15,Health and Wellness
+179,179,157,"Rodriguez, Shirley",1996-04-30,Engineering
+180,180,97,"Silva, Wendy",1969-11-13,Engineering
+181,181,11,"Ramirez, Akua",1973-02-17,Product Manager
+182,182,24,"Wolf, Charlie",1979-05-03,System Architects
+183,183,122,"Ramirez, Alejandro",1967-11-07,Human Resources
+184,184,110,"Mansa, Trudy",1979-07-03,Fleet Management
+185,185,58,"Mansa, Akua",1996-02-08,System Architects
+186,186,62,"Sarkar, Ana",1973-06-23,Tech Support
+187,187,127,"Souza, Wendy",1973-04-04,Finance
+188,188,27,"Roe, Richard",1974-08-29,Finance
+189,189,29,"Manu, Charlie",1955-04-18,Product Manager
+190,190,41,"Major, Craig",1972-07-22,Tech Support
+191,191,163,"Rodriguez, Liu",1982-07-11,Finance
+192,192,116,"Rosalez, Ted",1999-08-07,Recruiting
+193,193,75,"Wei, Martha",1975-04-01,Environmental Services
+194,194,183,"Major, Merlin",1963-01-29,Engineering
+195,195,39,"Stiles, Richard",1985-05-09,Administration
+196,196,1,"Ramirez, Jane",1954-07-29,Recruiting
+197,197,46,"Wei, Erin",1982-02-18,Facilities Management
+198,198,73,"Major, John",1991-02-25,Engineering
+199,199,105,"Rodriguez, Carole",1997-02-06,Designer
