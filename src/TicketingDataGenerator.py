@@ -30,6 +30,7 @@ class TicketingDataGenerator():
         return random.choice(["Software","Access/Login","Systems","Hardware"])
 
     def main(self):
+        print("Creating sample ticketing file")
         df = pd.DataFrame(columns=['ticket_num','assigned_to_emp_id','category', 'status',
                                 'creation_date','requestor','FiledAgainst','TicketType',
                                 'Severity','Priority'])
@@ -47,6 +48,7 @@ class TicketingDataGenerator():
                             }, ignore_index=True)
 
         df.to_csv(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "ticketing.csv"))
+        print("Finishing creating sample ticketing file")
 
 if __name__ == '__main__':
     ticketingDataGeneratorObj = TicketingDataGenerator(num_of_tickets=50)
