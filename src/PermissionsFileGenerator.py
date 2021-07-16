@@ -6,9 +6,11 @@ import os
 
 class PermissionsFileGenerator():
 
+
     def __init__(self, list_of_emp_ids, number_of_levels):
         self.list_of_emp_ids = list_of_emp_ids
         self.number_of_levels = number_of_levels
+
 
     def create_permissions_file(self):
         print("Creating permissions file")
@@ -25,6 +27,7 @@ class PermissionsFileGenerator():
                 writer.writerow(l)
         f.close()
         print("Finished creating permissions file")
+
 
 if __name__ == '__main__':
     # Test with 200 emp

@@ -9,6 +9,7 @@ from treelib import Tree
 
 class LdapDataGenerator():
 
+
     def __init__(self, number_of_employees=200):
         self.number_of_employees = number_of_employees
         self.data={}
@@ -17,6 +18,7 @@ class LdapDataGenerator():
                 filepath = subdir + os.sep + file
                 print("reading %s" % file)
                 self.data[file.replace(".txt","").replace("-","_")] = open(filepath,"r").read().split('\n')
+
 
     def random_dob(self):
         start_date = datetime.datetime.today() - datetime.timedelta(25000)
@@ -38,14 +40,12 @@ class LdapDataGenerator():
         return self.data['structnames'][random.randrange(0, len(self.data['structnames']), 1)]
 
 
-
     def generate_data(self):
         tree = Tree()
         df = pd.DataFrame(columns=['Employee_id','Manager_id','name', 'dob','dept'])
 
         for emp_id in range(self.number_of_employees):
             if emp_id >1:
-                #print(emp_id,random.randrange(0, emp_id-1, 1))
                 Manager_id=random.randrange(0, emp_id-1, 1)
                 tree.create_node(emp_id,emp_id, parent=Manager_id)
                 df = df.append({'Employee_id': int(emp_id), 
@@ -55,7 +55,6 @@ class LdapDataGenerator():
                                 'dept':self.random_department()
                             }, ignore_index=True)
             elif emp_id==1:
-                #print(emp_id,0)
                 tree.create_node(emp_id,emp_id, parent=0)
                 df = df.append({'Employee_id': int(emp_id), 
                                 'Manager_id':int(0),
@@ -73,6 +72,7 @@ class LdapDataGenerator():
                             }, ignore_index=True)
         return tree, df
 
+
     def main(self):
         print("Generating random LDAP data")
         tree, df = self.generate_data()
@@ -82,12 +82,13 @@ class LdapDataGenerator():
         df.head(20)
         df.to_csv(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'sample_ldap_data.csv'))
         tree.save2file(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'tree.txt'))
-        leaves=[]#leaves
+        leaves=[]
         for i in tree.leaves():
             leaves.append(i.tag)
         with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', 'leaves.txt'), "w") as output:
             output.write(str(leaves))
         print("Finished generating random LDAP data")
+
 
 if __name__ == '__main__':
     ldapDataGeneratorObj = LdapDataGenerator()
